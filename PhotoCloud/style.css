@@ -1,0 +1,221 @@
+﻿html { 
+    height: 100%; 
+    width: 100%;
+}
+
+body { 
+    background: #99bbff url('Pictures/cloudBorder.png') repeat-x 50% bottom;
+}
+
+.button {
+    background-color: white;
+    width: auto;
+    height: auto;
+    color: #99bbff;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+}
+
+#nav {
+    display: block;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#nav li a {
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;    
+    display: block;
+}
+
+#ImageButton1 {
+    position:absolute;
+    top: 10px;
+    left: 19px;
+    height: 62px;
+    width: 123px;
+}
+
+.logo {
+    background: url("Pictures/cloud2.png") no-repeat;
+}
+
+#body {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 800px;
+    color: white;
+    font-size: 25px;
+    margin: 0 auto;
+}
+
+#signIn, #register {
+    background-color: white;
+    color: #99bbff;
+    padding: 10px;
+    width: 347px;
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+#btnSignIn, #btnRegister {
+    font-size: 15px;
+    margin: 10px 0 0 75px;
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 25px;
+    border: none; 
+    background-color: #99bbff;
+}
+
+.user {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+#register table {
+    text-align: left;
+}
+
+#welcome {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: white;
+    color: #99bbff;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.cloud {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#big {
+    font-size: 40px;
+}
+
+#welcome div{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+
+#albums, #newAlbum, #photos, #photo {
+    background: white url('Pictures/cloudBorder2.png') repeat-x 50% bottom;
+}
+
+#categories {
+    width: 20%;
+    display: inline-block;
+    margin: 15px;
+}
+
+#lbWelcome {
+    display: inline-block;
+    float: right;
+    vertical-align: middle;
+    color: #99bbff;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+#logo {
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+}
+
+#logOut {
+    float: right;
+    display: inline-block;
+    color: #99bbff;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+#table, #tableNew {
+    display: inline-block;
+    width: 70%;
+}
+
+#navAlbums {
+    float:right;
+    padding: 20px;
+}
+
+#navAlbums .button, .save{
+    margin: 10px;
+    background-color: #99bbff;
+    color: white;
+    padding: 5px;
+    font-size:15px;
+}
+
+#myTable {
+    text-align: center;
+}
+
+.headerCell, #categories {
+    
+    color: #043b93;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#myTable td{
+    padding:10px;
+}
+
+#menu li {
+    display: block;
+    list-style-type: none;
+    margin-left: -40px;
+    padding-bottom: 10px;
+    
+}
+
+#menu li a {
+    text-decoration: none;
+    color: #99bbff;
+}
+
+.save {
+    margin-left: 140px;
+}
+
+
+#tableNew {
+    color: #99bbff;
+    font-size: 20px;
+}
+
