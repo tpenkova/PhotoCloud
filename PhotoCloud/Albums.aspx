@@ -25,6 +25,7 @@
             <ul id="menu" runat="server">
             </ul>
         </div>
+
         <div id="table">
             <asp:Table ID="myTable" runat="server" Width="70%" style="margin-left: 47px; margin-top: 0px"> 
                 <asp:TableRow>
